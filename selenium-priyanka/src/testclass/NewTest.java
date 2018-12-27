@@ -25,7 +25,7 @@ public class NewTest {
 		WebElement loginbtn = driver.findElement(By.id("Login"));
 
 		username.sendKeys("priyankamakam.bhupal@gmail.com");
-		password.sendKeys("Priyanka@32");
+		password.sendKeys("xxxxxx");
 		loginbtn.click();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		WebElement NoThanks = driver.findElement(By.id("lexNoThanks"));
